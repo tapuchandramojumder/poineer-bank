@@ -1,0 +1,64 @@
+body {
+  padding: 100px;
+}
+.submit-area {
+  box-shadow: 5px 4px 10px gray;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#login-area h2 {
+  margin: 20px;
+}
+#login-area h2::after {
+  content: '';
+  width: 300px;
+  height: 3px;
+  background-image: linear-gradient(120deg, orange, tomato);
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#transition-area {
+  padding: 20px;
+  margin: 30px;
+}
+#transition-area p {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+#transition-area p::after {
+  content: '';
+  width: 160px;
+  height: 3px;
+  background-image: linear-gradient(120deg, orange, tomato);
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.row {
+  margin-top: 50px;
+}
+.deposit {
+  background-image: linear-gradient(120deg, #2ecc71, #27ae60);
+}
+.withdraw {
+  background-image: linear-gradient(120deg, #f39c12, #e67e22);
+}
+.balance {
+  background-image: linear-gradient(120deg, #d35400, #e74c3c);
+}
+.deposit,
+.withdraw,
+.balance {
+  color: rgb(80, 60, 60);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+#transition-area{
+  display:none;
+}
